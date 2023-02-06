@@ -1,5 +1,12 @@
 use yew::prelude::*;
 
+struct Item {
+    id: usize,
+    name: String,
+    price: f32,
+    quantity: i32,
+}
+
 #[function_component(App)]
 pub fn app() -> Html {
     html! {
